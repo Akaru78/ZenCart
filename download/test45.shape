@@ -1,0 +1,162 @@
+[
+  {
+    "type": "shape_designer.figure.PolyRect",
+    "id": "9990616a-6ffe-4c24-4955-470b3cff04d6",
+    "x": 628,
+    "y": 180,
+    "width": 169,
+    "height": 131,
+    "alpha": 1,
+    "angle": 0,
+    "userData": {
+      "baseClass": "draw2d.SetFigure",
+      "code": "/**\n * by 'Draw2D Shape Designer'\n *\n * Custom JS code to tweak the standard behaviour of the generated\n * shape. add your custome code and event handler here.\n *\n *\n */\ntestShape = testShape.extend({\n\n    init: function(attr, setter, getter){\n         this._super(attr, setter, getter);\n\n         // your special code here\n    },\n\n    /**\n     *  Called by the simulator for every calculation\n     *  loop\n     *  @required\n     **/\n    calculate:function()\n    {\n    },\n\n\n    /**\n     *  Called if the simulation mode is starting\n     *  @required\n     **/\n    onStart:function()\n    {\n    },\n\n    /**\n     *  Called if the simulation mode is stopping\n     *  @required\n     **/\n    onStop:function()\n    {\n    }\n});"
+    },
+    "cssClass": "shape_designer_figure_PolyRect",
+    "ports": [],
+    "bgColor": "#FFFFFF",
+    "color": "#303030",
+    "stroke": 1,
+    "radius": 0,
+    "dasharray": null,
+    "vertices": [
+      {
+        "x": 628,
+        "y": 180
+      },
+      {
+        "x": 797,
+        "y": 180
+      },
+      {
+        "x": 797,
+        "y": 311
+      },
+      {
+        "x": 628,
+        "y": 311
+      }
+    ],
+    "blur": 0,
+    "filters": [
+      {
+        "name": "shape_designer.filter.PositionFilter"
+      },
+      {
+        "name": "shape_designer.filter.SizeFilter"
+      },
+      {
+        "name": "shape_designer.filter.StrokeFilter"
+      },
+      {
+        "name": "shape_designer.filter.FillColorFilter"
+      }
+    ]
+  },
+  {
+    "type": "shape_designer.figure.PolyRect",
+    "id": "1c55effe-6cdd-9a98-dc42-55d3787c73a3",
+    "x": 715,
+    "y": 254,
+    "width": 125,
+    "height": 105,
+    "alpha": 1,
+    "angle": 0,
+    "userData": {
+      "name": "bbbb"
+    },
+    "cssClass": "shape_designer_figure_PolyRect",
+    "ports": [],
+    "bgColor": "#FFFFFF",
+    "color": "#303030",
+    "stroke": 1,
+    "radius": 0,
+    "dasharray": null,
+    "vertices": [
+      {
+        "x": 715,
+        "y": 254
+      },
+      {
+        "x": 840,
+        "y": 254
+      },
+      {
+        "x": 840,
+        "y": 359
+      },
+      {
+        "x": 715,
+        "y": 359
+      }
+    ],
+    "blur": 0,
+    "filters": [
+      {
+        "name": "shape_designer.filter.PositionFilter"
+      },
+      {
+        "name": "shape_designer.filter.SizeFilter"
+      },
+      {
+        "name": "shape_designer.filter.StrokeFilter"
+      },
+      {
+        "name": "shape_designer.filter.FillColorFilter"
+      }
+    ]
+  },
+  {
+    "type": "shape_designer.figure.PolyRect",
+    "id": "35a52fcf-a7d4-0fc1-78e9-d860d97a597f",
+    "x": 803,
+    "y": 338,
+    "width": 102,
+    "height": 68,
+    "alpha": 1,
+    "angle": 0,
+    "userData": {
+      "name": "cccc"
+    },
+    "cssClass": "shape_designer_figure_PolyRect",
+    "ports": [],
+    "bgColor": "#FFFFFF",
+    "color": "#303030",
+    "stroke": 1,
+    "radius": 0,
+    "dasharray": null,
+    "vertices": [
+      {
+        "x": 803,
+        "y": 338
+      },
+      {
+        "x": 905,
+        "y": 338
+      },
+      {
+        "x": 905,
+        "y": 406
+      },
+      {
+        "x": 803,
+        "y": 406
+      }
+    ],
+    "blur": 0,
+    "filters": [
+      {
+        "name": "shape_designer.filter.PositionFilter"
+      },
+      {
+        "name": "shape_designer.filter.SizeFilter"
+      },
+      {
+        "name": "shape_designer.filter.StrokeFilter"
+      },
+      {
+        "name": "shape_designer.filter.FillColorFilter"
+      }
+    ]
+  }
+]
